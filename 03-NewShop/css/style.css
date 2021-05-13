@@ -1,0 +1,340 @@
+/* DISPLAY: 15.6 inch */
+
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* HEADER-CONTACT */
+.header__wrap-1{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #2A66B1;
+}
+.header__content{
+    width: 75%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.header__contact{
+    font-style: normal;
+    display: inline-block;
+}
+.header__content a, .header__content i{
+    color: white;
+}
+.header__button a{
+    padding-left: 30px;
+}
+
+/* HEADER-NAV */
+.header__wrap-2{
+    width: 100%;
+    background-color: #1C5BAA;
+}
+.header__content-2{
+    width: 75%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo, .nav__menu{
+    display: inline-block;
+    color: white;
+    padding-right: 30px;
+}
+.nav__logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav__logo a{
+    color: white;
+}
+.nav__menu a{
+    color: white;
+    padding-right: 10px;
+}
+.nav__shoppingCart{
+    color: white;
+}
+.nav__shoppingCart a{
+    color: white;
+}
+.nav__shoppingCart p:last-child{
+    padding: 5px 0px 0px 40px;
+}
+
+/* CAROUSEL */
+.carousel__background img{
+    width: 100%;
+    height: 500px;
+}
+.carousel__content{
+    width: 75%;
+    padding-top: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.carousel__item img{
+    width: 100%;
+    height: 100%;
+    display:block;
+    
+}
+.align-image1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.align-image2{
+    grid-column: 3/5;
+}
+
+/* NEW PRODUCTS */
+.newProducts{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.title{
+    width: 30%;
+    margin: auto;
+    padding: 20px 0;
+    color: #1C5BAA;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.newProducts__content{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.newProducts__item img{
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+}
+.newProducts__item{
+    width: 23.5%;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.newProducts__item p:nth-child(3){
+    padding: 10px 0;
+}
+.newProducts__item a{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid orange;
+    display: block;
+    color: #1C5BAA;
+}
+.newProducts__item h3{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #2A66B1;
+}
+.newProducts__item p span:first-child{
+    text-decoration: line-through;
+    padding-right: 5px;
+    color: grey;
+}
+.newProducts__item p span:last-child{
+    font-weight: bold;
+}
+
+/* DISCOUNT */
+.discount{
+    width: 100%;
+    background-image: url(../img/trending-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.discount__content{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 230px;
+    text-align: center;
+    color: white;
+}
+.discount__content p{
+    padding: 30px;
+    font-size: 3em;
+}
+.discount__content h3{
+    padding-bottom: 30px;
+    font-size: 4em;
+}
+.discount__content button{
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-style: none;
+    font-weight: bold;
+}
+hr{
+    position: relative;
+    top: 380px;
+}
+
+/* NEW ARRIVALS */
+.newArrivals{
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.newArrivals__content{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.newArrivals__item img{
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+}
+.newArrivals__item{
+    width: 23.5%;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.newArrivals__item p:nth-child(3){
+    padding: 10px 0;
+}
+.newArrivals__item a{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid orange;
+    display: block;
+    color: #1C5BAA;
+}
+.newArrivals__item h3{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #2A66B1;
+}
+.newArrivals__item p span:first-child{
+    text-decoration: line-through;
+    padding-right: 5px;
+    color: grey;
+}
+.newArrivals__item p span:last-child{
+    font-weight: bold;
+}
+
+/* LASTEST FASHION TRENDS */
+.lastestTrend__content{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.lastestTrend__item img{
+    width: 100%;
+    display: block;
+}
+.lastestTrend__item{
+    position: relative;
+}
+.lastestTrend__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.lastestTrend__discount{
+    padding: 10px;
+    background-color: #1C5BAA;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+}
+.lastestTrend__discount p{
+    padding: 6px 0px;
+}
+.lastestTrend__text{
+    width: 100%;
+    padding: 5px 0;
+    background-color: #1C5BAA;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1C5BAA;
+    margin-top: 20px;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li i{
+    padding-right: 3px;
+}
+.footer__content{
+    width: 75%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer__item{
+    width: 20%; 
+}
+.footer__item h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.footer__content h3{
+    font-size: 1.3em;
+}
+.footer__payment img{
+    width: 100%;
+    display: block;
+}
+.footer__copyright{
+    width: 100%;
+    background-color: black;
+}
