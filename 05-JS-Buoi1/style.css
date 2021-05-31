@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content__style{
+    width: 25%;
+    padding: 25px;
+    margin: 25px 25px;
+    border: 2px solid grey
+}
+
+.input__style{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 0;
+    border: 3px solid green;
+    border-radius: 2px;
+}
+
+.bai1__content p{
+    padding-top: 5px;
+}
+
+.button__style{
+    padding: 8px;
+    background-color: green;
+    color: white; 
+    border: none;
+    font-weight: bold;
+}
+.result{
+    padding-top: 10px;
+}
+.result span{
+    padding:3px 50px;
+    color: white;
+    background: green;
+}
+
+
+.bai2__input input{
+    width: 15%;
+    padding: 5px;
+    margin: 5px 3px;
+}

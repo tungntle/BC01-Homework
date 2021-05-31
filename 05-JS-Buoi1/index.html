@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="bai1">
+        <div class="bai1__wrapper">
+            <div class="bai1__content content__style">
+                <h2>Tính tiền lương nhân viên</h2>
+                <p>Tiền công 1 ngày: 100.000VNĐ</p>
+                <div class="bai1__input">
+                    <input type="text" placeholder="Nhập số ngày công" id="so-ngay-cong" class="input__style">
+                    <button class="button__style"id="tinh-tien-luong">Tính tiền</button>
+                </div>               
+                <div class="result">Kết quả <span id="tong-tien-luong">0</span> VNĐ</div>
+            </div>
+        </div>       
+    </section>
+
+    <section class="bai2">
+        <div class="bai2__wrapper">
+            <div class="bai2__content content__style">
+                <h2>Tính giá trị trung bình </h2>
+                <div class="bai2__input">
+                    <input type="text" placeholder="số 1" class="input__style1" id="so-thuc-01">
+                    <input type="text" placeholder="số 2" class="input__style1" id="so-thuc-02">
+                    <input type="text" placeholder="số 3" class="input__style1" id="so-thuc-03">
+                    <input type="text" placeholder="số 4" class="input__style1" id="so-thuc-04">
+                    <input type="text" placeholder="số 5" class="input__style1" id="so-thuc-05">
+                    <button id="nhap-so-thuc" class="button__style">Tính trung bình</button>
+                </div> 
+                <div class="result">Kết quả <span id="trung-binh">0</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bai3">
+        <div class="bai3__wrapper">
+            <div class="bai3__content content__style">
+                <h2>Quy đổi tiền</h2>
+                <p>1 USD = 23.500VNĐ</p>
+                <div class="bai3__input">
+                    <input type="text" placeholder="Nhập số USD" id="so-usd" class="input__style">
+                    <button class="button__style"id="tinh-tien-vnd">Tính tiền</button>
+                </div>               
+                <div class="result">Kết quả <span id="tong-tien-vnd">0</span> VNĐ</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bai4">
+        <div class="bai4__wrapper">
+            <div class="bai4__content content__style">
+                <h2>Tính chu vi diện tích</h2>
+                <div class="bai1__input">
+                    <input type="text" placeholder="Nhập chiều dài" id="chieu-dai" class="input__style">
+                    <input type="text" placeholder="Nhập chiều rộng" id="chieu-rong" class="input__style">
+                    <button class="button__style"id="tinh-chuvi-dientich">Tính toán</button>
+                </div>               
+                <div class="result">Chu vi <span id="chu-vi">0</span></div>
+                <div class="result">Diện tích <span id="dien-tich">0</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bai5">
+        <div class="bai5__wrapper">
+            <div class="bai5__content content__style">
+                <h2>Tính tiền lương nhân viên</h2>
+                <div class="bai5__input">
+                    <input type="text" placeholder="Nhập số có 2 chữ số" id="so-nguyen" class="input__style">
+                    <button class="button__style"id="tinh-toan">Tính tổng</button>
+                </div>               
+                <div class="result">Kết quả <span id="tong-so-nguyen">0</span></div>
+            </div>
+        </div>       
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

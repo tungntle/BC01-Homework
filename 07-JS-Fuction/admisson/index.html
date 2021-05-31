@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý tuyển sinh</title>
+</head>
+<body>
+    <h1>Quản lý tuyển sinh</h1>
+
+    <!-- Nhập đối tượng -->
+    <form>
+        <div class="form__title">
+            <h2>Nhập điểm thi</h2>
+        </div>
+        <!-- Nhập điểm thi toán, văn, anh-->
+        <div class="form__score">
+            <p>Điểm toán học <input type="text" placeholder="Toán" id="math_score"></p>
+            <p>Điểm ngữ văn <input type="text" placeholder="Văn" id="literature_score"></p>
+            <p>Điểm anh văn <input type="text" placeholder="Anh" id="english_score"></p>
+        </div>
+        <div class="form__area">
+            <p>Khu vực ưu tiên <input type="text" placeholder="Khu vực" id="priority_area"></p>
+            <p>Đối tượng ưu tiên <input type="text" placeholder="Đối tượng" id="priority_student"></p>
+        </div>
+        <div class="form__button">
+            <button id="calculate">Tính Điểm</button>
+        </div>
+    </form>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
